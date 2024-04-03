@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Number_3.MainWindow"
+        Title="Number_3"
+        WindowStartupLocation="CenterScreen">
+	<Grid ShowGridLines="True" >
+		<Grid.RowDefinitions >
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="Please enter your phone number:" FontSize="16" Margin="10 10 0 0">
+		</TextBlock>
+		<Button Grid.Column="0" Grid.Row="0" Content="Submit" Height="30" Width="65"
+		  Margin="80 60 0 0" Background="Black" Foreground="Gray" Name="Submit">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="0" Content="Clear" Height="30" Width="60"
+		  Margin="10 60 0 0" Background="Black" Foreground="Gray" Name="Clear">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="0" Height="30" Width="30"
+		  Name="Null" Margin="500 0 0 0" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="1" Height="30" Width="30"
+		  Margin="0 0 0 0" Name="One" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="2" Height="30" Width="30"
+		  Margin="0 80 0 0" Name="Two" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="3" Height="30" Width="30"
+		  Margin="100 80 0 0" Name="Three" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="4" Content="4" Height="30" Width="30"
+		  Background="Black" Name="Four" Foreground="Gray" Margin="100 0 0 0">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="5" Height="30" Width="30"
+		  Margin="600 0 0 0" Name="Five" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="6" Height="30" Width="30"
+		  Margin="700 80 0 0" Name="Six" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="7" Height="30" Width="30"
+		  Margin="300 80 0 0" Name="Seven" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="1" Content="8" Height="30" Width="30"
+		  Margin="500 80 0 0" Name="Eight" Background="Black" Foreground="Gray">
+		</Button>
+		<Button Grid.Column="0" Grid.Row="4" Content="9" Height="30" Width="30"
+		  Background="Black" Name="Nine" Foreground="Gray" Margin="300 0 0 0">
+		</Button>
+
+		<TextBlock x:Name="message" Margin="12 40 0 0" FontSize="25">
+		</TextBlock>
+
+	</Grid>
+</Window>
